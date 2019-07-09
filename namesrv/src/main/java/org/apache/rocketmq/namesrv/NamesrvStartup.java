@@ -41,6 +41,9 @@ import org.apache.rocketmq.srvutil.ServerUtil;
 import org.apache.rocketmq.srvutil.ShutdownHookThread;
 import org.slf4j.LoggerFactory;
 
+/**
+ * RocketMQ服务发现，集群横向扩展，无状态，主备切换依赖于此。
+ */
 public class NamesrvStartup {
 
     private static InternalLogger log;
